@@ -1,0 +1,62 @@
+﻿@model Hospital.Models.Account
+@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "Edit";
+    var role = HttpContextAccessor.HttpContext.Session.GetString("Role");
+}
+
+<div class="container-fluid">
+    <div class="layout-specing">
+        <div class="d-md-flex justify-content-between">
+            <h5 class="mb-0">Update Account</h5>
+
+            <nav aria-label="breadcrumb" class="d-inline-block mt-4 mt-sm-0">
+                <ul class="breadcrumb bg-transparent rounded mb-0 p-0">
+                    <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Hospitalis</a></li>
+                    <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Accounts">Accounts</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Update Account</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="mt-4">
+                <div class="card border-0 p-4 rounded shadow">
+                    <form asp-action="Edit" class="mt-4">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+                        <div class="row">
+                            <div class="form-group mb-3">
+                                <label asp-for="Username" class="control-label"></label>
+                                <input asp-for="Username" class="form-control" />
+                                <span asp-validation-for="Username" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label asp-for="Password" class="control-label"></label>
+                                <input asp-for="Password" class="form-control" />
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                            @if(role=="Admin")
+                            {
+                                <div class="form-group mb-3">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                                    </label>
+                                </div>
+                            }
+                            else
+                            {
+                                <input class="form-check-input" asp-for="IsActive" type="hidden"/>
+                            }
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-success" />
+                                <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                                <h4 class="text-danger">@ViewBag.Message</h4>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

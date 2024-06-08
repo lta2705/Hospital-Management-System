@@ -1,0 +1,61 @@
+﻿@model Hospital.Models.Account
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<div class="container-fluid">
+    <div class="layout-specing">
+        <div class="d-md-flex justify-content-between">
+            <h5 class="mb-0">Deactive Account</h5>
+
+            <nav aria-label="breadcrumb" class="d-inline-block mt-4 mt-sm-0">
+                <ul class="breadcrumb bg-transparent rounded mb-0 p-0">
+                    <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Hospitalis</a></li>
+                    <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Accounts">Accounts</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Deactive Account</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="mt-4">
+                <div class="card border-0 p-4 rounded shadow">
+                    <h3>Are you sure you want to deactive this?</h3>
+                    <div>
+                        <dl class="row">
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.Username)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.Username)
+                            </dd>
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.Password)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.Password)
+                            </dd>
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.IsActive)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.IsActive)
+                            </dd>
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.User)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.User.Name)
+                            </dd>
+                        </dl>
+
+                        <form asp-action="Delete">
+                            <input type="hidden" asp-for="Id" />
+                            <input type="submit" value="Deactive" class="btn btn-danger" />
+                            <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

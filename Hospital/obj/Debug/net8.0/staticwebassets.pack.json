@@ -1,0 +1,969 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Hospital.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Hospital.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\buttons.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\css\\buttons.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\css\\flatpickr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\css\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\jquery.timepicker.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.timepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\remixicon.css",
+      "PackagePath": "staticwebassets\\css\\remixicon.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\responsive.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\css\\responsive.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\simplebar.css",
+      "PackagePath": "staticwebassets\\css\\simplebar.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\css\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\css\\tiny-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\fonts\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\fonts\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\fonts\\materialdesignicons-webfont﹖.eot",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont﹖.eot"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\fonts\\materialdesignicons-webfont﹖v=5.9.55.eot",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont﹖v=5.9.55.eot"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\fonts\\materialdesignicons-webfont﹖v=5.9.55.ttf",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont﹖v=5.9.55.ttf"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\fonts\\materialdesignicons-webfont﹖v=5.9.55.woff2",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont﹖v=5.9.55.woff2"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\fonts\\remixicon﹖t=1590207869815.eot",
+      "PackagePath": "staticwebassets\\fonts\\remixicon﹖t=1590207869815.eot"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\fonts\\remixicon﹖t=1590207869815.svg",
+      "PackagePath": "staticwebassets\\fonts\\remixicon﹖t=1590207869815.svg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\fonts\\remixicon﹖t=1590207869815.ttf",
+      "PackagePath": "staticwebassets\\fonts\\remixicon﹖t=1590207869815.ttf"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\fonts\\remixicon﹖t=1590207869815.woff",
+      "PackagePath": "staticwebassets\\fonts\\remixicon﹖t=1590207869815.woff"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\fonts\\remixicon﹖t=1590207869815.woff2",
+      "PackagePath": "staticwebassets\\fonts\\remixicon﹖t=1590207869815.woff2"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\about\\about-2.png",
+      "PackagePath": "staticwebassets\\images\\about\\about-2.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\01.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\02.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\03.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\05.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\about.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\bg-chat.png",
+      "PackagePath": "staticwebassets\\images\\bg\\bg-chat.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\bg-lines-one.png",
+      "PackagePath": "staticwebassets\\images\\bg\\bg-lines-one.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\bg-profile.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\bg-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\department.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\department.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\pharm01.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\pharm01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\pharm02.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\pharm02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\pharm03.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\pharm03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\slider01.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\slider01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\slider02.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\slider02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\bg\\slider03.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\slider03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\blog\\01.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\blog\\02.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\blog\\03.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\blog\\04.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\blog\\05.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\blog\\06.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\blog\\07.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\blog\\08.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\blog\\09.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\blog\\single.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\single.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\01.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\02.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\03.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\04.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\05.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\06.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\07.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\08.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\09.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\Codepen.svg",
+      "PackagePath": "staticwebassets\\images\\client\\Codepen.svg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\amazon.png",
+      "PackagePath": "staticwebassets\\images\\client\\amazon.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\dribbble.svg",
+      "PackagePath": "staticwebassets\\images\\client\\dribbble.svg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\google.png",
+      "PackagePath": "staticwebassets\\images\\client\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\lenovo.png",
+      "PackagePath": "staticwebassets\\images\\client\\lenovo.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\paypal.png",
+      "PackagePath": "staticwebassets\\images\\client\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\shopify.png",
+      "PackagePath": "staticwebassets\\images\\client\\shopify.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\client\\spotify.png",
+      "PackagePath": "staticwebassets\\images\\client\\spotify.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\cta.jpg",
+      "PackagePath": "staticwebassets\\images\\cta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\doctors\\01.jpg",
+      "PackagePath": "staticwebassets\\images\\doctors\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\doctors\\02.jpg",
+      "PackagePath": "staticwebassets\\images\\doctors\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\doctors\\03.jpg",
+      "PackagePath": "staticwebassets\\images\\doctors\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\doctors\\04.jpg",
+      "PackagePath": "staticwebassets\\images\\doctors\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\doctors\\05.jpg",
+      "PackagePath": "staticwebassets\\images\\doctors\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\doctors\\06.jpg",
+      "PackagePath": "staticwebassets\\images\\doctors\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\doctors\\07.jpg",
+      "PackagePath": "staticwebassets\\images\\doctors\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\doctors\\08.jpg",
+      "PackagePath": "staticwebassets\\images\\doctors\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\doctors\\09.jpg",
+      "PackagePath": "staticwebassets\\images\\doctors\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\doctors\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\doctors\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\doctors\\dr-profile.png",
+      "PackagePath": "staticwebassets\\images\\doctors\\dr-profile.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\doctors\\profile-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\doctors\\profile-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\favicon.ico.png",
+      "PackagePath": "staticwebassets\\images\\favicon.ico.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\hero.png",
+      "PackagePath": "staticwebassets\\images\\hero.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\language\\american.png",
+      "PackagePath": "staticwebassets\\images\\language\\american.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\language\\chinese.png",
+      "PackagePath": "staticwebassets\\images\\language\\chinese.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\language\\european.png",
+      "PackagePath": "staticwebassets\\images\\language\\european.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\language\\indian.png",
+      "PackagePath": "staticwebassets\\images\\language\\indian.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\language\\japanese.png",
+      "PackagePath": "staticwebassets\\images\\language\\japanese.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\language\\russian.png",
+      "PackagePath": "staticwebassets\\images\\language\\russian.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\layouts\\dark-dash-rtl.png",
+      "PackagePath": "staticwebassets\\images\\layouts\\dark-dash-rtl.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\layouts\\dark-dash.png",
+      "PackagePath": "staticwebassets\\images\\layouts\\dark-dash.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\layouts\\landing-dark-rtl.png",
+      "PackagePath": "staticwebassets\\images\\layouts\\landing-dark-rtl.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\layouts\\landing-dark.png",
+      "PackagePath": "staticwebassets\\images\\layouts\\landing-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\layouts\\landing-light-rtl.png",
+      "PackagePath": "staticwebassets\\images\\layouts\\landing-light-rtl.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\layouts\\landing-light.png",
+      "PackagePath": "staticwebassets\\images\\layouts\\landing-light.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\layouts\\light-dash-rtl.png",
+      "PackagePath": "staticwebassets\\images\\layouts\\light-dash-rtl.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\layouts\\light-dash.png",
+      "PackagePath": "staticwebassets\\images\\layouts\\light-dash.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\images\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\images\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\logo-light.png",
+      "PackagePath": "staticwebassets\\images\\logo-light.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\payment\\american.png",
+      "PackagePath": "staticwebassets\\images\\payment\\american.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\payment\\discover.png",
+      "PackagePath": "staticwebassets\\images\\payment\\discover.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\payment\\mastercard.png",
+      "PackagePath": "staticwebassets\\images\\payment\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\payment\\rupay.png",
+      "PackagePath": "staticwebassets\\images\\payment\\rupay.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\cancer.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\cancer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\cough.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\cough.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\cta.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\cta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\delivery.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\delivery.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\diabetes.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\diabetes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\doctor.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\doctor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\download.png",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\download.png"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\heart.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\heart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\pain.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\pain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\sexual.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\sexual.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\01.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\02.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\03.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\04.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\ashwagandha.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\ashwagandha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\beby-products.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\beby-products.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\diabend.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\diabend.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\facewash.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\facewash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\handwash.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\handwash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\herbal-care.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\herbal-care.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\kidney-tray.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\kidney-tray.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\masks.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\masks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\medical-equptment.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\medical-equptment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\medicine.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\medicine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\medigrip.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\medigrip.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\nicotex.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\nicotex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\praganews.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\praganews.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\pulse-oximeter.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\pulse-oximeter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\sanitizer.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\sanitizer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\smoking-habit.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\smoking-habit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\stethoscope.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\stethoscope.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\shop\\thermometer.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\shop\\thermometer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\skin.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\skin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\pharmacy\\weight.jpg",
+      "PackagePath": "staticwebassets\\images\\pharmacy\\weight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\svg\\error.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\error.svg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\images\\svg\\vaccine-development-amico.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\vaccine-development-amico.svg"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\js\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\areachart.init.js",
+      "PackagePath": "staticwebassets\\js\\areachart.init.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\js\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\js\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\js\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\ckeditor.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\columnchart.init.js",
+      "PackagePath": "staticwebassets\\js\\columnchart.init.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\counter.init.js",
+      "PackagePath": "staticwebassets\\js\\counter.init.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.responsive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\easy_background.js",
+      "PackagePath": "staticwebassets\\js\\easy_background.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\feather.min.js",
+      "PackagePath": "staticwebassets\\js\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\flatpickr.init.js",
+      "PackagePath": "staticwebassets\\js\\flatpickr.init.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\flatpickr.min.js",
+      "PackagePath": "staticwebassets\\js\\flatpickr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\fullcalendar.init.js",
+      "PackagePath": "staticwebassets\\js\\fullcalendar.init.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\js\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\jquery.timepicker.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.timepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\radialchartinit.js",
+      "PackagePath": "staticwebassets\\js\\radialchartinit.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\responsive.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\js\\responsive.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\select2.init.js",
+      "PackagePath": "staticwebassets\\js\\select2.init.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\js\\simplebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\slick.init.js",
+      "PackagePath": "staticwebassets\\js\\slick.init.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\timepicker.init.js",
+      "PackagePath": "staticwebassets\\js\\timepicker.init.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\tiny-slider-init.js",
+      "PackagePath": "staticwebassets\\js\\tiny-slider-init.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\js\\tiny-slider.js",
+      "PackagePath": "staticwebassets\\js\\tiny-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\le135\\source\\repos\\Hospital\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Hospital.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Hospital.props",
+      "PackagePath": "build\\Hospital.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Hospital.props",
+      "PackagePath": "buildMultiTargeting\\Hospital.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Hospital.props",
+      "PackagePath": "buildTransitive\\Hospital.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

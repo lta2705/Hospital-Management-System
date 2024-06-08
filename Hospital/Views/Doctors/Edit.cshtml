@@ -1,0 +1,59 @@
+﻿@model Hospital.Models.Doctor
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container-fluid">
+    <div class="layout-specing">
+        <div class="d-md-flex justify-content-between">
+            <h5 class="mb-0">Update Doctor</h5>
+
+            <nav aria-label="breadcrumb" class="d-inline-block mt-4 mt-sm-0">
+                <ul class="breadcrumb bg-transparent rounded mb-0 p-0">
+                    <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Hospitalis</a></li>
+                    <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Doctors">Doctors</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Update Doctor</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="mt-4">
+                <div class="card border-0 p-4 rounded shadow">
+                    <form asp-action="Edit" class="mt-4">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="DepartmentId" class="control-label"></label>
+                                <select asp-for="DepartmentId" class="form-control" asp-items="ViewBag.DepartmentId"></select>
+                                <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Degree" class="control-label"></label>
+                                <input asp-for="Degree" class="form-control" />
+                                <span asp-validation-for="Degree" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Salary" class="control-label"></label>
+                                <input asp-for="Salary" class="form-control" />
+                                <span asp-validation-for="Salary" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Description" class="control-label"></label>
+                                <textarea asp-for="Description" rows="4" cols="50" class="form-control"></textarea>
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-success" />
+                                <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                                <h4 class="text-danger">@ViewBag.Message</h4>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

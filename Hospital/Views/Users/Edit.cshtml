@@ -1,0 +1,87 @@
+﻿@model Hospital.Models.User
+@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var role = HttpContextAccessor.HttpContext.Session.GetString("Role");
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container-fluid">
+    <div class="layout-specing">
+        <div class="d-md-flex justify-content-between">
+            <h5 class="mb-0">Update User</h5>
+
+            <nav aria-label="breadcrumb" class="d-inline-block mt-4 mt-sm-0">
+                <ul class="breadcrumb bg-transparent rounded mb-0 p-0">
+                    <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Hospitalis</a></li>
+                    <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Users">Users</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Update User</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="mt-4">
+                <div class="card border-0 p-4 rounded shadow">
+                    <form asp-action="Edit" class="mt-4">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Name" class="control-label"></label>
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Email" class="control-label"></label>
+                                <input asp-for="Email" class="form-control" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="PhoneNumber" class="control-label"></label>
+                                <input asp-for="PhoneNumber" class="form-control" />
+                                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Sex" class="control-label"></label>
+                                <input asp-for="Sex" class="form-control" />
+                                <span asp-validation-for="Sex" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Address" class="control-label"></label>
+                                <input asp-for="Address" class="form-control" />
+                                <span asp-validation-for="Address" class="text-danger"></span>
+                            </div>
+                            @if(role == "Admin")
+                            {
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="Role" class="control-label"></label>
+                                    <select asp-for="Role" class="form-control">
+                                        <option>Admin</option>
+                                        <option>Doctor</option>
+                                        <option>Patient</option>
+                                    </select>
+                                    <span asp-validation-for="Role" class="text-danger"></span>
+                                </div>
+                            }
+                            else
+                            {
+                                <input type="hidden" asp-for="Role" class="form-control">
+                            }
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Description" class="control-label"></label>
+                                <textarea asp-for="Description" rows="4" cols="50" class="form-control"></textarea>
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-success" />
+                                <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                                <h4 class="text-danger">@ViewBag.Message</h4>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,105 @@
+﻿@model Hospital.Models.Appointment
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="container-fluid">
+    <div class="layout-specing">
+        <div class="d-md-flex justify-content-between">
+            <h5 class="mb-0">Update Appointment</h5>
+
+            <nav aria-label="breadcrumb" class="d-inline-block mt-4 mt-sm-0">
+                <ul class="breadcrumb bg-transparent rounded mb-0 p-0">
+                    <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Hospitalis</a></li>
+                    <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Appointments">Appointments</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Update Appointment</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="mt-4">
+                <div class="card border-0 p-4 rounded shadow">
+                    <form asp-action="Edit" class="mt-4">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+                        <div class="row">
+                            <div class="mb-3">
+                                <label asp-for="Title" class="control-label"></label>
+                                <input asp-for="Title" class="form-control" />
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="IssueId" class="control-label"></label>
+                                    <select asp-for="IssueId" class="form-control" asp-items="ViewBag.IssueId" onchange="getDoctor()" id="issue"></select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="DoctorId" class="control-label"></label>
+                                    <select asp-for="DoctorId" class="form-control" asp-items="ViewBag.DoctorId" id="doctor"></select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="control-label">Fee</label>
+                                    <input readonly class="form-control" id="fee" value=""></input>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="Time" class="control-label"></label>
+                                    <input asp-for="Time" class="form-control" type="datetime-local" />
+                                    <span asp-validation-for="Time" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="Description" class="control-label"></label>
+                                <input asp-for="Description" class="form-control" />
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-success" />
+                                <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                                <h4 class="text-danger">@ViewBag.Message</h4>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+    function getDoctor() {
+        var id = document.getElementById("issue").value;
+        $.ajax({
+            url: '/Appointments/GetDoctor/' + id,
+            type: 'GET',
+            success: function (response) {
+                document.getElementById('doctor').innerHTML = "";
+                for (var i = 0; i < response.data.length; i++) {
+                    $("#doctor").append("<option value=" + response.data[i].id + ">" + response.data[i].description + "</option>");
+                }
+            },
+            error: function () {
+            }
+        });
+
+        $.ajax({
+            url: '/Appointments/GetFee/' + id,
+            type: 'GET',
+            success: function (response) {
+                document.getElementById("fee").value = response.data;
+            },
+            error: function () {
+            }
+        });
+    }
+    $(getDoctor());
+
+</script>
+
+

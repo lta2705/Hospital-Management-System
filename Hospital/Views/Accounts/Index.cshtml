@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Hospital.Models.Account>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container-fluid">
+    <div class="layout-specing">
+        <div class="row">
+            <div class="col-xl-9 col-lg-6 col-md-4">
+                <h5 class="mb-0">Accounts</h5>
+                <nav aria-label="breadcrumb" class="d-inline-block mt-2">
+                    <ul class="breadcrumb breadcrumb-muted bg-transparent rounded mb-0 p-0">
+                        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Hospitalis</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Accounts</li>
+                    </ul>
+                </nav>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row">
+            <div class="col-12 mt-4">
+                <div class="table-responsive bg-white shadow rounded">
+                    <table class="table mb-0 table-center" id="example1">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Username)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Password)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.IsActive)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.User)
+                                </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Username)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Password)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.IsActive)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.User.Name)
+                                    </td>
+                                    <td>
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                                        @if(item.IsActive)
+                                        {
+                                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Deactive</a>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div><!--end row-->
+    </div>
+</div><!--end container-->
